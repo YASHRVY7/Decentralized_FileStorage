@@ -2,7 +2,7 @@
 const web3 = new Web3(window.ethereum);
 
 // Pinata API credentials (Replace with your actual JWT token)
-const PINATA_JWT = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI4YTQwMDczZS1kZDFjLTQ3OGEtYTJjYi1iNDFhMDFlYzNjNjAiLCJlbWFpbCI6Inlhc2h3YW50aHJ2eTdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6IjUwMDlkODEzM2ZhYTc3ZTA4ODhmIiwic2NvcGVkS2V5U2VjcmV0IjoiMTk4OGZmOGViOTAwZWJiMzAzMWRjOTAxOWJlNjA3MTc4MGI5Nzk1ZTY4NDU4ZWZjOGYwOWU3MmZiY2U3ZDQ5YSIsImV4cCI6MTc2OTc5NTYzNH0.4bhS2bKC0-yeQ-7ak_DwAhwfRZPoKh4kpa8bXy65GAQ"; // Replace with your Pinata JWT token
+const PINATA_JWT = ""; // Replace with your Pinata JWT token
 
 // Smart contract ABI and address
 const contractABI = [
@@ -202,7 +202,7 @@ const contractABI = [
         "constant": true
       }
   ] ; // Copy from build/contracts/FileStorage.json
-const contractAddress = "0x09857CE45117E278cC9af616A8dc7D7F284eB337"; // Replace with your deployed contract address
+const contractAddress = ""; // Replace with your deployed contract address
 let contract;
 
 // Initialize variables
